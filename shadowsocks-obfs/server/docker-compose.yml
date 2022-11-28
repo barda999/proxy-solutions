@@ -1,0 +1,9 @@
+services:
+  ss:
+    image: hitian/ss
+    command: ["ss-server", "-c", "/config/config.json"]
+    restart: always
+    ports:
+      - "8088:8088"
+    volumes:
+      - ./config.json:/config/config.json

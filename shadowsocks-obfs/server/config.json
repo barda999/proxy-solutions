@@ -1,0 +1,11 @@
+{
+    "server":"0.0.0.0",
+    "server_port":8088,
+    "password":"<PASSWORD>",
+    "timeout":3000,
+    "method":"aes-256-cfb",
+    "fast_open": false,
+    "workers": 15,
+    "plugin":"obfs-server",
+    "plugin_opts":"obfs=http"
+}
