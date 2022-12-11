@@ -1,4 +1,10 @@
-### Requirements
+### Setup script
+```
+wget -O - https://raw.githubusercontent.com/barda999/proxy-solutions/main/shadowsocks-obfs/server/setup.sh | sudo bash
+```
+This script has been tested on some digital ocean servers
+
+### Step by Step
 
 1. Install docker and docker-compose:
 ```
